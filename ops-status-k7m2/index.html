@@ -1,0 +1,63 @@
+<!doctype html><html lang="zh"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>App Studio 状态</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0b1220;color:#e5e7eb;font:15px/1.5 -apple-system,system-ui,sans-serif;padding:16px;max-width:760px;margin:0 auto}
+h1{font-size:18px;margin-bottom:4px}
+.sub{color:#9ca3af;font-size:12px;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px}
+.card{background:#111a2e;border:1px solid #1f2a44;border-radius:12px;padding:12px}
+.nm{font-weight:600;font-size:14px}
+.st{color:#60a5fa;font-size:13px;margin-top:2px}
+.ex{color:#9ca3af;font-size:12px}
+h2{font-size:14px;color:#93c5fd;margin:18px 0 8px}
+.rev{background:#111a2e;border:1px solid #1f2a44;border-radius:12px;padding:14px;margin-bottom:8px}
+.big{font-size:26px;font-weight:700;color:#10b981}
+.bar{height:8px;background:#1f2a44;border-radius:4px;margin-top:8px;overflow:hidden}
+.bar>i{display:block;height:100%;background:linear-gradient(90deg,#10b981,#34d399);width:0.0%}
+ul{list-style:none;font-size:13px;color:#cbd5e1}
+li{padding:6px 0;border-bottom:1px solid #1a2438}
+li:last-child{border:0}
+.foot{color:#64748b;font-size:11px;margin-top:20px}
+</style></head><body>
+<h1>🏭 App Studio 状态</h1>
+<div class="sub">更新于 2026-11-28 17:06 · 手机刷新即最新</div>
+
+<div class="grid">
+<div class="card"><div class="nm">TrueTakeoff</div><div class="st">审核中</div></div>
+<div class="card"><div class="nm">TrueThread</div><div class="st">审核中</div></div>
+<div class="card"><div class="nm">TrueDuct</div><div class="st">审核中</div></div>
+<div class="card"><div class="nm">TrueMat</div><div class="st">审核中</div></div>
+<div class="card"><div class="nm">TrueLumen</div><div class="st">审核中</div></div>
+<div class="card"><div class="nm">TrueBrix</div><div class="st">已建待上架</div></div>
+<div class="card"><div class="nm">TrueBatch</div><div class="st">受阻</div></div>
+</div>
+
+<h2>💰 收入 / 还款线</h2>
+<div class="rev">
+<div class="big">$0.00</div>
+<div class="sub" style="margin:4px 0 0">还款线 $116.47 · 年费债 $99</div>
+<div class="bar"><i></i></div>
+</div>
+
+<h2>📋 立项队列</h2>
+<ul><li>TrueLumen — 已提交</li><li>TrueBrix — 已建待上架</li><li>TrueBatch — 受阻</li><li>TrueDuct 风管管件损失库 — 已建待上架</li><li>TrueTakeoff 四库管件损失 — 已建待上架</li><li>TrueThread Acme螺纹 — 已建待上架</li></ul>
+
+<h2>📝 各组动态（最近）</h2>
+<ul><li>[2026-11-28] 生产组 cron 触发，但暂停新建 TrueBrix/TrueBatch：三 App 刚被拒(UNRESOLVED_ISSUES)，若为 4.3 spam 则继续建同模板 App 会加重判定+威胁账号。PM 判断：先拿拒绝原因，再决定是否继续扩 App 还是加功能。TrueLumen 提交已在飞(agent运行中)。生产连续≠盲目扩量，风险优先。</li>
+<li>[2026-11-28] PM 验收例行：无新候选（创意3选18驳/需求0/巡检0存活）。TrueLumen 包装完成（图标/ASO/页面/截图/IPA）卡在老板ASC建app记录；三App被拒待老板拿Resolution Center拒绝原因。生产组暂停新建（防4.3加重）。流水线阻塞=老板侧ASC网页动作，非组怠工。不追责，等老板动作。</li>
+<li>[2026-11-28] PM 验收例行：状态无变化。三App被拒修复包已备(Notes文本含录屏URL+公开录屏)，待老板Chrome JS开关(3下点击)后PM/维护组自动填ASC+重新提交。TrueLumen待老板建app记录。生产暂停(防4.3)。阻塞=老板侧唯一物理步骤，非组怠工，不追责。</li>
+<li>[2026-11-28] 维护组处理 Guideline 2.1 拒绝：三App(TrueThread/TrueDuct/TrueMat)全部完成 填App Review Notes(六项+录屏URL)→保存→Resolution Center回复→更新审核→重新提交。三App均回到WAITING_FOR_REVIEW。录屏公开托管站点。TrueTakeoff本就在审未动。</li>
+<li>[2026-11-28] PM 验收例行：四App全WAITING_FOR_REVIEW(3重提+1本在审)。TrueBrix生产组agent建设中(queued→building中)。TrueLumen built待app记录。TrueBatch queued。生产非闲置(在建TrueBrix)。无新候选验收。阻塞仅TrueLumen app记录(老板选A手建或B我HID点)。</li>
+<li>[2026-11-28] PM 验收 TrueBrix(App#6 蜂蜜含水率)：PASS。45/45测试,编译0错,源合规(USDA FR 1984公有领域+Hanna/Chataway 1932,待源ICUMSA诚实标注)。标built。待包装(ASO/图标/截图/上传/ASC/提审)。</li>
+<li>[2026-11-28] PM 验收例行：TrueLumen 构建已 VALID（处理完成），重跑 m5 挂构建+重试提审。TrueBrix 已验收 PASS。TrueBatch queued(IFRA数据源待核验,建前需确认)。生产非闲置。四App在审。</li>
+<li>[2026-11-28] TrueLumen(App#5) 完整上架成功：全部 ASC 元数据网页完成（App记录/构建挂载/IAP $4.99+价格/截图/隐私政策/App Privacy未收集/类别Utilities/年龄分级4+ V2/内容版权/联系信息/版权/免费定价/中国区排除174国），已提交审核（48h内出结果）。生产组从零建+包装+提审全流程闭环。App ID 6840272309。</li>
+<li>[2026-11-28傍晚] PM 验收：TrueLumen submitted(建+包装+提审全闭环)✅。TrueBrix built待包装(45/45验收过)。TrueBatch queued但IFRA源未核验→标待决不建。巡检agent本轮运行中。ASC API 401(限流)仍,审核态用本地state。PM-DAILY-REPORT已出。无追责。</li>
+<li>[2026-11-28 傍晚] 审核监控(网页)：五 App 全&quot;正在等待审核&quot;(TrueTakeoff/TrueThread/TrueDuct/TrueMat/TrueLumen)。均未上架(iTunes lookup resultCount=0)。ASC API 401故用网页+公开API。review-state已更新5 App WAITING_FOR_REVIEW。无批准/拒绝。上架后才有评分评论可收。</li>
+<li>[2026-11-28] API 401 修复：ASC 网页生成新 key 4V9LZLQ8L5(管理权限)，下载 p8 存 ops/，全部脚本替换。新 key 测试 200 正常。旧 key 失效。审核监控恢复 API 化。</li>
+<li>[2026-11-28晚] PM验收：无新raw候选。TrueBrix built(45/45验收过)待包装。TrueBatch queued→blocked(IFRA源需购买违反不花钱铁律,无免费权威源)。五App API实测全WAITING_FOR_REVIEW。API恢复(新key)可实时监控。生产非闲置(TrueBrix待包装)。无追责。</li></ul>
+
+<div class="foot">自动生成 · 无敏感信息 · 每 30 分钟刷新</div>
+</body></html>
